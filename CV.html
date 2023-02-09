@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Gina Ramacciotti">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="CV.css">
+  <!--Título-->
+  <title>Gail Ross | Desarrollo Web Front-end</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#">
+        </a>
+        <ul class="navbar-nav justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre.mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">Conocimientos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Section Hero-->
+  <section class="hero aling-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-img-desarrollador rounded-circle" src="Perfil-img.jpg" alt="Foto de perfil">
+      <h1>Hola, soy Gail Ross</h1>
+      <h2>Desarrolladora Front-end.</h2>
+    </div>
+  </section>
+  <!--Sobre mi-->
+  <section class="sobre-mi seccion-oscura" id="sobre.mi">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Gail Ross</h2>
+      <p class="seccion-texto">Nací el 03/02/1990, tengo 33 años. Actualmente, vivo en 4489 Crockett St, San Francisco, Estados Unidos. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus ligula vestibulum congue semper. Maecenas posuere dui finibus, porta felis ac, feugiat nisi. Nunc at tellus risus. Duis in massa.  </p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara" id="exp">
+    <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class="columna col-12 col-md-6">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus commodo neque vitae feugiat. Morbi et justo enim. Quisque vitae rhoncus orci. Praesent faucibus quis lacus dictum placerat. Aliquam erat volutpat.</p>
+          <div class="badge-contenedor"> 
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">Bootsrap</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-6 column2">
+          <i class="bi bi-book"></i>
+          <p class="experiencia-titulo"> Estudios </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus commodo neque vitae feugiat. Morbi et justo enim. Quisque vitae rhoncus orci. Praesent faucibus quis lacus dictum placerat. Aliquam erat volutpat.</p>
+          <div class="badge-contenedor"> 
+            <span class="badge text-bg-primary">UTN Rosario</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Argentina Programa</span>
+            <span class="badge text-bg-primary">FreeCodeCamp</span>
+            <span class="badge text-bg-primary">Phyton</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Proyectos-->
+  <section class="proyectos-recientes seccion-clar d-flex flex-column" id="proyectos">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de los proyectos en los que he estado trabajando.</h2>
+    <!--Galeria de proyectos-->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!--Proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto1.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Pagina tributo</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RamacciottiGina/Tribute-Page-FreeCodeCamp.git" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto2.png" alt="Proyecto 2">
+            <div class="overlay">
+              <p>Pagina PetGrooming</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RamacciottiGina/Product-landing-Page-freeCodeCamp.git" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github align-items-center"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto3.png" alt="Proyecto 3">
+            <div class="overlay">
+              <p>Formulario</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RamacciottiGina/Survey-Form-FreeCodeCamp.git" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 4-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto4.png" alt="Proyecto 4">
+            <div class="overlay">
+              <p>Documentacion Tecnica</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/RamacciottiGina/Technical-Documentation-Page-FreeCodeCamp.git" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto5.png" alt="Proyecto 5">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyeto 6-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="proyecto6.png" alt="Proyecto 6">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="contact">
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+      <h4>Contactame</h4>
+      <ul class="list-unstyled d-flex align-items-center">
+        <li class="ms-3"><a class="link-dark" href="https://gmail.com/" target="_blank" ><i class="bi bi-envelope-at-fill"></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://github.com/" target="_blank" ><i class="bi bi-github"></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://linkedin.com.ar/" target="_blank" ><i class="bi bi-linkedin"></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://whatsapp.com/" target="_blank" ><i class="bi bi-whatsapp"></i></i></a></li>
+      </ul>
+    </div>
+</div>
+  </footer>
+
+  <script src="CV.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
