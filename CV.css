@@ -109,7 +109,7 @@ h1 {
 
 .full {
     font-weight: bold;
-    transition: all;
+    transform: scale(120%);
     color: white;
     background: linear-gradient(180deg, rgba(26,53,79,1) 23%, rgba(20,76,126,1) 55%, rgba(26,53,79,1) 79%);
 }
