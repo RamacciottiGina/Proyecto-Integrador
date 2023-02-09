@@ -3,9 +3,17 @@ const columns=document.getElementsByClassName("columna");
 for (let i=0; i<columns.length; i++){
 columns[i].addEventListener('mouseover', ()=>{
     columns[i].classList.add("full");
+    columns[i].style.transiton="5s";
+    columns[i].style.borderRadius="10%";
+
+
+
 });
 columns[i].addEventListener('mouseout', ()=>{
+    columns[i].style.borderRadius='0';
     columns[i].classList.remove("full");
+    
+
 });
 
 }
@@ -18,6 +26,7 @@ for (let i=0; i<icon.length; i++){
         icon[i].style.border=("1px solid rgb(73,71,188, 0.5)"); 
         icon[i].style.borderRadius="40%";   
         icon[i].style.transform="scale(150%)";
+        
     });
     icon[i].addEventListener('mouseout', ()=>{
         icon[i].style="none"; 
